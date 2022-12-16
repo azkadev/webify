@@ -10,12 +10,15 @@ void main(List<String> arguments) {
   );
 }
 
-String MyApp() {
-  return Container(
-    height: 512,
-    width: 512,
-    child: Center(
-      child: Text("Azka dev Webify framework"),
-    ),
-  );
+class MyApp extends StatelessWidget {
+  @override
+  build() {
+    return Container(
+      height: 512,
+      width: 512,
+      child: Center(
+        child: Text("Azka dev Webify framework"),
+      ),
+    ).build();
+  }
 }
