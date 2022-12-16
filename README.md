@@ -1,6 +1,6 @@
 # Webify
 
-Webify adalah framework web menggunakan bahasa dart dengan feature class dan syntax mirip flutter
+(Work In Proggres) Webify adalah framework web menggunakan bahasa dart dengan feature class dan syntax mirip flutter
 
 ## Install Package
 
@@ -42,3 +42,5 @@ Q = Pertanyaan
 A = jawaban
 
 > Q: Apakah ini bisa di jadikan alternative react ? / next js<br> A: Iya jika library sudah matang namun saat ini belum saya harus convert semua widget flutter menjadi html satu persatu jika anda ingin membantu convert silahkan kontribusi ya <br>
+
+> Q: Apakah framework anda seo friendly?<br> A: Tentu saja saya hanya membuat code converter dari style code flutter menjadi html langsung tentu ini akan menjadikan framework friendly<br>
