@@ -7,14 +7,14 @@ Webify adalah framework web menggunakan bahasa dart dengan feature class dan syn
 
 ```dart
 // ignore_for_file: non_constant_identifier_names
-
 import 'package:webify/webify.dart';
-
 void main(List<String> arguments) {
   runApp(
     port: 8080,
     bindIp: "0.0.0.0",
-    app: MyApp(),
+    app: MaterialApp(
+      home: MyApp()
+    ),
   );
 }
 
@@ -30,5 +30,4 @@ class MyApp extends StatelessWidget {
     ).build();
   }
 }
-
 ```
