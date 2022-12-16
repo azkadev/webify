@@ -15,3 +15,4 @@ dev_dependencies:
   test: ^1.16.0
 dependencies:
   alfred: ^1.0.0+1
+  galaxeus_lib: ^0.0.34

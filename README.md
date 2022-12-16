@@ -38,9 +38,11 @@ class MyApp extends StatelessWidget {
 ```
 
 ## FAQS (Pertanyaan)
-Q = Pertanyaan
-A = jawaban
-
+Q = Pertanyaan <br>
+A = jawaban <br>
 > Q: Apakah ini bisa di jadikan alternative react ? / next js<br> A: Iya jika library sudah matang namun saat ini belum saya harus convert semua widget flutter menjadi html satu persatu jika anda ingin membantu convert silahkan kontribusi ya <br>
 
 > Q: Apakah framework anda seo friendly?<br> A: Tentu saja saya hanya membuat code converter dari style code flutter menjadi html langsung tentu ini akan menjadikan framework friendly<br>
+
+
+> Q: Apakah framework ini ringan?<br> A: Tentu saja sangat ringan<br>
