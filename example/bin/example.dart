@@ -9,6 +9,13 @@ void main(List<String> arguments) {
     app: MyApp(),
   );
 }
+
 String MyApp() {
-  return Container(height: 512, width: 512, child: Center(child: Text("Azka dev Webify framework")));
+  return Container(
+    height: 512,
+    width: 512,
+    child: Center(
+      child: Text("Azka dev Webify framework"),
+    ),
+  );
 }
