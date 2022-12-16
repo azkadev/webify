@@ -13,8 +13,10 @@ export 'src/webify_base.dart';
 
 // TODO: Export any libraries intended for clients of this package.
 // part "widget/container.dart";
+part "widget/app.dart";
 part "widget/framework.dart";
 part "widget/container.dart";
+
 void runApp({
   int port = 3000,
   dynamic bindIp = '0.0.0.0',
