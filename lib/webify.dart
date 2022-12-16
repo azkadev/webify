@@ -16,6 +16,7 @@ export 'src/webify_base.dart';
 part "widget/app.dart";
 part "widget/framework.dart";
 part "widget/container.dart";
+part "widget/scaffold.dart";
 
 void runApp({
   int port = 3000,
@@ -25,10 +26,18 @@ void runApp({
   Alfred alfred = Alfred(logLevel: LogType.error);
   alfred.all("/", (req, res) {
     res.headers.contentType = ContentType.html;
+    String data = "";
+    if (app != null) {
+      if (app.build() is Widget) {
+        data = (app.build() as Widget).build();
+      } else if (app.build() is String) {
+        data = app.build();
+      }
+    }
     return """
 <html>
 <body>
-${app!.build()}
+${data}
 </body>
 </html>
 """;

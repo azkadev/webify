@@ -13,12 +13,14 @@ void main(List<String> arguments) {
 class MyApp extends StatelessWidget {
   @override
   build() {
-    return Container(
-      height: 512,
-      width: 512,
-      child: Center(
-        child: Text("Azka dev Webify framework"),
+    return Scaffold(
+      body: Container(
+        height: 512,
+        width: 512,
+        child: Center(
+          child: Text("Azka dev Webify framework"),
+        ),
       ),
-    ).build();
+    );
   }
 }
