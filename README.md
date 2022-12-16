@@ -2,6 +2,11 @@
 
 Webify adalah framework web menggunakan bahasa dart dengan feature class dan syntax mirip flutter
 
+## Install Package
+
+```bash
+dart pub add webify
+```
 
 ### Quickstart
 
@@ -31,3 +36,9 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+## FAQS (Pertanyaan)
+Q = Pertanyaan
+A = jawaban
+
+> Q: Apakah ini bisa di jadikan alternative react ? / next js<br> A: Iya jika library sudah matang namun saat ini belum saya harus convert semua widget flutter menjadi html satu persatu jika anda ingin membantu convert silahkan kontribusi ya <br>
