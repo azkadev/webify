@@ -6,6 +6,7 @@ abstract class StatefulWidget extends Widget {
     return super.build();
   }
 }
+
 abstract class StatelessWidget extends Widget {
   @override
   build() {
@@ -17,9 +18,7 @@ abstract class Widget extends DiagnosticableTree {
   /// Initializes [key] for subclasses.
   Widget();
 
-  build() {
-    
-  }
+  build() {}
 }
 
 abstract class DiagnosticableTree with Diagnosticable {}

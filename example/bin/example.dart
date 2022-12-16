@@ -6,9 +6,7 @@ void main(List<String> arguments) {
   runApp(
     port: 8080,
     bindIp: "0.0.0.0",
-    app: MaterialApp(
-      home: MyApp()
-    ),
+    app: MaterialApp(home: MyApp()),
   );
 }
 

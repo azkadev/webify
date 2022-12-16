@@ -40,13 +40,11 @@ class Text extends StatelessWidget {
   }
 }
 
-
-
 // String Container({double height = 0, double width = 0, dynamic child}) {
 //   return """
 //   <div style="height:${height}px; width:${width}px; background: #666;">
 
-//   ${child} 
+//   ${child}
 //   </div>
 //   """;
 // }
@@ -54,7 +52,6 @@ class Text extends StatelessWidget {
 // String Text(String text) {
 //   return "${text}";
 // }
-
 
 // String Center({
 //   dynamic child
