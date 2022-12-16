@@ -12,7 +12,7 @@ void main(List<String> arguments) {
 
 class MyApp extends StatelessWidget {
   @override
-  build() {
+  Widget build() {
     return Scaffold(
       body: Container(
         height: 512,
